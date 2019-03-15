@@ -1,0 +1,148 @@
+/*las primeras lineas son de referencia a la anterior tarea anterior , los elementos innecesarios los oculte*/
+.imagen{
+    display: none;
+}
+spam{
+    display: none;
+}
+body
+{
+    background-image: url(../images/soccer.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin:20px 150px 0px 150px;
+    min-height: 100%;
+}
+.header h1{
+    color: black;
+    font: 48px bold ;
+    font-family:Impact;
+    text-shadow: 2px 2px 1px #ff9999;
+    padding-left: 10px;
+    float: left;
+    padding-right: 10px;
+
+}
+.header .logo{
+    height: 180px;
+    width: 260px;
+    float: left;
+}
+.header ul{
+    position: relative;
+    list-style-type: none;
+    width: 650px;
+    float: right;
+}
+.header li {
+    display: inline;
+    background-color: #303f9f;
+    width: 100px;
+    padding: 7px 14px;
+    border-style: solid; 
+    border-width: 2px 5px 5px 2px;
+}
+.header li:hover{
+    background-color: #4dff4d;
+    color:yellow;
+}
+.header li a:hover{
+    color: black;
+}
+
+.header li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+/*------------------------------
+--------------------------------*/
+.body h2.titulo{
+    clear: both;
+    position: relative;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-bottom-width: 15px;
+    border-top-width: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font: 45px bold ;
+    font-family:Impact;
+    top: 10px;   
+}
+.body article.contenido{
+    background-color: rgba(255,255,255,0.3);
+
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    height: auto;
+    
+    border-radius: 50px 20px;
+    padding:15px 25px 15px 25px;
+}
+.body article h2.tituloNYSLrules , h3.titulo2NYSLrules ,p.titulo3NYSLrules ,h2.tituloGameinfo,p.fechas,p.asunto{
+    text-align: center;
+}
+.body article a.titulo4NYSLrules ,a.titulo5Gameinfo,p.fechas,p.asunto{
+    font-weight: bold;
+}
+.body article a.titulo3Gameinfo{
+    text-decoration: underline;
+    font-style: italic;
+}
+.body article ol.listaletras{
+    list-style: lower-alpha;
+}
+.body article table{
+    width: 90%;
+}
+
+.body article th.juegosfila1 ,td.juegosfila1{
+    width: 35%;
+    text-align: center;
+}
+.body article th.juegosfila2,td.juegosfila2{
+    width: 20%;
+    text-align: left;
+}
+.body article th.juegosfila3,td.juegosfila3{
+    width:25%;
+    text-align: left;
+}
+.body article th.juegosfila4,td.juegosfila4{
+    text-align: left;
+    width: 10%;
+}
+
+.body article td.juegos2fila2{
+    width: 60%;
+    padding: 5px;
+}
+.body article td.juegos2fila3{
+    width: 30%;
+}
+.body article a.email{
+    color: blue;
+    text-decoration: underline;
+}
+.body article a.email:hover{
+     color: red;
+}
+.body article.contenido iframe{
+    height: 15%;
+    width: 29%;  
+    float: left;
+    clear: left;
+    padding: 5px;
+}
+.body article.contenido .iframe{
+    clear: both;
+}
+.body article.contenido div.iframe div.Content{
+    width: 30%;
+    float: left
+    
+}
+

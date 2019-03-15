@@ -1,0 +1,3 @@
+Notas
+1:El siguiente condigo sirve pra los email 
+<a href="mailto:shay@awesome.com?subject=Reaching%20Out&body=How%20are%20you">Email Me</a>

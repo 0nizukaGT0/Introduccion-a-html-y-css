@@ -1,0 +1,220 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/nysl_4.css">
+    <link rel="shortcut icon" href="../images/676630.png">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/prueba.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="body">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../images/676630.png" alt="logo">
+                </a>
+            </div>
+            <div class="titulo">
+                <header>Northside Youth Soccer League</header>
+            </div>
+        </div>
+        <div class="content">
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="NYSL_Rules.html"> NYSL Rules</a></li>
+                    <li><a href="Game_Info.html">Game Info</a></li>
+                    <li><a href="forma.html">Formulario</a></li>
+                </ul>
+            </div>
+            <article>
+                <h2 class="titulo2">Registration</h2>
+                <form action="show_data.html" target="_blank" method="GET">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <div class="Datos_Personales">
+                            <div class="Datos_Personales1">
+                                <span class="formulariorequisito">Player´s First Name:(max: characters) </span>
+                                <input type="text" name="First_Name" placeholder="Name..." class="formulariocontenido" pattern="[a-zA-Z ]{1,20}" oninvalid="alert('You must fill out the form!');"  required>
+                            </div>
+                            <div class="Datos_Personales1">
+                                <span class="formulariorequisito">Last Name:(max:20 characters)</span>
+                                <input type="text" name="Last_Name" placeholder="Last Name..." class="formulariocontenido" pattern="[a-zA-Z ]{1,20}" required>
+                            </div>
+                            <div class="Datos_Personales1">
+                                <span>Street Address:</span>
+                                <input type="text" name="Street_Name" placeholder="Street Name..." class="formulariocontenido" pattern="[a-zA-Z]+"  required>
+                            </div>
+                            <div class="Datos_Personales1">
+                                <span>City:</span>
+                                <input type="text" name="City" placeholder="City..." class="formulariocontenido" pattern="[a-zA-Z0-9]+"  required>
+                            </div>
+                            <div class="Datos_Personales1">
+                                <span>Zip Code:</span>
+                                <input type="text" name="Zip_Code" placeholder="Zip Code..." class="formulariocontenido" pattern="[0-9]+"  required>
+                            </div>
+                            <div class="Datos_Personales1">
+                                <span>Birth Date (dd/mm/yyyy):</span>
+                                <input type="date" name="Birth_Date" placeholder="00/00/0000" class="formulariocontenido" required>
+                            </div>
+                            <div class="Datos_Personales1">
+                                <div><span>Gender:</span></div>
+                                <div class="Datos_Personales2 Datos_Personales2_2">
+                                    <div><input type="radio" name="Gender" value="male" required>Male</div>
+                                    <div><input type="radio" name="Gender" value="female" required>Female</div>
+                                </div>
+                            </div>
+                            <div class="Datos_Personales1">
+                                <div><span>Grade: </span></div>
+                                <div class="Datos_Personales2">
+                                    <div><input type="radio" name="Grade" value="Pre-School" required> Pre-School</div>
+                                    <div><input type="radio" name="Grade" value="1º" required> 1º</div>
+                                    <div><input type="radio" name="Grade" value="2º" required> 2º</div>
+                                    <div><input type="radio" name="Grade" value="3º" required> 3º</div>
+                                    <div><input type="radio" name="Grade" value="4º" required> 4º</div>
+                                    <div><input type="radio" name="Grade" value="5º" required> 5º</div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Parent/Guardian Information</legend>
+                        <div class="Datos_Padre">
+                            <div class="Datos_Padre1">
+                                <span>Parent/Guardian:</span>
+                                <input type="text" name="Parent_Guardian" placeholder="Parent/Guadian" class="formulariocontenido" required>
+                            </div>
+                            <div class="Datos_Padre1">
+                                <span>Contact Phone:</span>
+                                <input type="text" name="Contact_Phone" placeholder="+00 123456789" class="formulariocontenido" required></div>
+                            <div class="Datos_Padre1">
+                                <span>Contact Email:</span>
+                                <input type="email" name="Contact_Email" placeholder="persona@email.com" class="formulariocontenido" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Preferences</legend>
+                        <div class="Preferencias">
+                            <div class="Preferencias1">
+                                <span>Which elementary schools do you live near?</span>
+                            </div>
+                            <div class="Preferencias1">
+                                <div>
+                                    <span>Firt Closest School:</span>
+                                    <select name="First_Closest_School" required>
+                                        <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                                        <option value="Greenbay">Greenbay</option>
+                                        <option value="Howard A Yeaguer">Howard A Yeaguer</option>
+                                        <option value="Marjorie P Hat">Marjorie P Hat</option>
+                                        <option value="North Elemantary">North Elemantary</option>
+                                        <option value="South Elematary">South Elematary</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="Preferencias1">
+                                <div>
+                                    <span>Second Closest School:</span>
+                                    <select name="Second_Closest_School" required>
+                                        <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                                        <option value="Greenbay">Greenbay</option>
+                                        <option value="Howard A Yeaguer">Howard A Yeaguer</option>
+                                        <option value="Marjorie P Hat">Marjorie P Hat</option>
+                                        <option value="North Elemantary">North Elemantary</option>
+                                        <option value="South Elematary">South Elematary</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="Preferencias1">
+                                <span>What position(s) do you normally play? </span>(check all that aply)
+                            </div>
+                            <div class="Preferencias1">
+                                <div class="Preferencias2">
+                                    <div><input type="checkbox" name="Normally_Play_Forward" > Forward</div>
+                                    <div><input type="checkbox" name="Normally_Play_Defense" > Defense</div>
+                                    <div><input type="checkbox" name="Normally_Play_Midfield" > Midfield</div>
+                                    <div><input type="checkbox" name="Normally_Play_Goal_keeper" > Goal Keeper</div>
+                                </div>
+                            </div>
+                            <div class="Preferencias1">
+                                <span>What position(s) do you want to play? </span>(check all that aply)
+                            </div>
+                            <div class="Preferencias1">
+                                <div class="Preferencias2">
+                                    <div><input type="checkbox" name="Want_Play_Forward" > Forward</div>
+                                    <div><input type="checkbox" name="Want_Play_Defense" > Defense</div>
+                                    <div><input type="checkbox" name="Want_Play_Midfield" > Midfield</div>
+                                    <div><input type="checkbox" name="Want_Play_Goal_Keeper" > Goal Keeper</div>
+                                </div>
+                            </div>
+                            <div class="Preferencias1">
+                                <input type="checkbox" name="Have_an_Uniform" checked required>
+                                <span>¿Alredy Have a Uniform?</span>
+                            </div>
+                            <div class="Preferencias1">
+                                <div class="Preferencias2 Preferencias2_2">
+                                    <div>
+                                        <span>Jersy Size:</span>
+                                        <select name="Jersey_Size" required>
+                                            <option value="Youth Small">Youth Small</option>
+                                            <option value="Youth Medium">Youth Medium</option>
+                                            <option value="Youth Large">Youth Large</option>
+                                            <option value="Small">Small</option>
+                                            <option value="Medium">Medium</option>
+                                            <option value="Large">Large</option>
+                                            <option value="Extra-Large">Extra-Large</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <span>Short Size:</span>
+                                        <select name="Short_Size">
+                                            <option value="Youth Small">Youth Small</option>
+                                            <option value="Youth Medium">Youth Medium</option>
+                                            <option value="Youth Large">Youth Large</option>
+                                            <option value="Small">Small</option>
+                                            <option value="Medium">Medium</option>
+                                            <option value="Large">Large</option>
+                                            <option value="Extra-Large">Extra-Large</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Permission to Play</legend>
+                        <div class="Consentimiento">
+                            <div class="Consentimiento1">
+                                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                                    Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                                    accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                                    employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                                    on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                                    sponsored activities, which transportation.</p>
+                                <p>
+                                    By entering your name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+                                    cancellation policy and agree to its terms.</p>
+                            </div>
+                            <div class="Consentimiento1">
+                                <div class="Consentimiento2">
+                                    <span>ParentGuardian Signature</span>
+                                    <textarea name="Consentimiento_Firma" placeholder="Sign..." required></textarea></div>
+                                <div class="Consentimiento2">
+                                    <span>Date:</span>
+                                    <textarea name="Consentimiento_Date" placeholder="00/00/0000" required></textarea></div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="Enviar"><input type="submit" name="Enviar Formulario"></div>
+                </form>
+            </article>
+        </div>
+    </div>
+</body>
+
+</html>

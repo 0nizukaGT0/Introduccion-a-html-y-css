@@ -1,0 +1,111 @@
+.Datos_Personales,
+.Datos_Padre {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+.Datos_Personales1,
+.Datos_Padre1 {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 45%;
+    margin: 4px;
+    padding:5px 15px;
+    flex-grow: 1
+}
+
+.Datos_Personales1 .Datos_Personales2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.Preferencias,
+.Consentimiento {
+    display: flex;
+    flex-flow: column wrap;
+}
+.Preferencias1 {
+    display: flex;
+    padding:5px 15px;
+}
+.Preferencias2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex-basis:100%;
+}
+.Preferencias2_2{
+    justify-content:center
+}
+.Preferencias2_2 >div span {
+    padding-right: 10px;
+}
+.Consentimiento1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    line-height: 150%;
+    padding:5px 15px;
+}
+.Consentimiento2 {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+}
+.Enviar {
+    margin: 15px;
+}
+.Enviar input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Enviar input[type="submit"]:hover{
+    border: 1px solid black;
+    background-color: darkolivegreen;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    padding: 5px;
+    box-sizing: border-box;
+}
+input[type="text"].error{
+    border: 1.5px solid red;
+}
+
+input[type="text"]:valid {
+    border: 1.5px solid lightblue;
+}
+
+select {
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+}
+fieldset{
+    border:2px solid black;
+    border-radius: 10px;
+}
+textarea{
+    resize: none;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px dotted black;
+    text-align: left;
+    padding-left: 10px;
+}
+textarea:focus{
+     background-color: lightgreen;
+   
+}
+fieldset legend {
+    font:20px bold;
+    padding: 5px;
+}

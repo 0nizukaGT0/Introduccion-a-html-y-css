@@ -1,0 +1,36 @@
+.main-body {
+    width: 100%;
+    min-height: 500px;
+    background: green;
+}
+
+.main-header {
+    background: red;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.second-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.main-content {
+    background: yellow;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.main-content >div[class="second-content"]{
+    background-color: orange;
+}
+.main-content >div[class="second-content"]:nth-child(n+3){
+    background-color: aqua;
+}
+
+.main-footer {
+    background: blue;
+    display: flex;
+    flex-flow: row nowrap;
+}
