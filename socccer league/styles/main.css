@@ -169,7 +169,10 @@ table {
     flex-flow: column wrap;
 }
 .bodysec{
-  border-color: red
+  border-color: red;
+  margin-left: auto;
+   margin-right: auto;
+   width: 8em
 }
 @media only screen and (min-width: 600px){
   .navbar li {
