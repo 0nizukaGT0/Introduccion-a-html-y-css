@@ -168,3 +168,8 @@ table {
     display: flex;
     flex-flow: column wrap;
 }
+@media only screen and (min-width: 768px) {
+  .main-body {
+      background: yellow;
+  }
+}
