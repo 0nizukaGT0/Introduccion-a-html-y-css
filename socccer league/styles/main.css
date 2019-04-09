@@ -120,7 +120,7 @@ table {
 .body {
     min-height: 100vh;
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     flex-wrap: nowrap;
 }
@@ -172,4 +172,8 @@ table {
   .navbar li {
           background-color: red;
   }
+  .body{
+    display: flex
+  }
+
 }
