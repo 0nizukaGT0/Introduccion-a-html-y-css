@@ -178,10 +178,7 @@ table {
 .bodysec div{
   padding: 5px;
 }
-@media only screen and (min-width: 600px){
-  .navbar li {
-          background-color: red;
-  }
+@media only screen and (min-width: 600px) and (orientation: landscape){
   .body{
     display: flex
   }
